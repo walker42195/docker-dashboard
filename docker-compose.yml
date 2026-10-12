@@ -1,0 +1,9 @@
+services:
+  docker-dashboard:
+    container_name: docker-dashboard
+    image: nginx:alpine
+    restart: unless-stopped
+    ports:
+      - "8080:80"
+    volumes:
+      - ./:/usr/share/nginx/html:ro
