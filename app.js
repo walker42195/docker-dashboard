@@ -1,9 +1,11 @@
 /**
- * Docker Hub — Homelab Container Overview
+ * Homelab & Cloud Service Hub — Overview for 10.0.0.45, 10.0.0.139 & fwserver
  */
 
 const SERVICES = [
+  // ----------------------------------------------------
   // 10.0.0.45 Services
+  // ----------------------------------------------------
   {
     id: "paperclip",
     title: "Paperclip",
@@ -101,7 +103,9 @@ const SERVICES = [
     image: "images/onvif.webp"
   },
 
+  // ----------------------------------------------------
   // 10.0.0.139 Services
+  // ----------------------------------------------------
   {
     id: "comfyui",
     title: "ComfyUI (Flux 1 dev)",
@@ -209,6 +213,154 @@ const SERVICES = [
     container: "marketing-bridge",
     status: "inactive",
     image: "images/marketing_bridge.webp"
+  },
+
+  // ----------------------------------------------------
+  // fwserver (107.152.37.150) Services & Websites
+  // ----------------------------------------------------
+  {
+    id: "doc-harbor-app",
+    title: "Doc-Harbor App",
+    category: "Dokument & AI Arkiv",
+    desc: "AI-driven dokumentsökning, arkivering och kunskapsdatabas i Docker (port 8090).",
+    host: "fwserver",
+    port: "8090 / 443",
+    url: "https://app.doc-harbor.se",
+    container: "doc-harbor_doc-harbor_1",
+    status: "active",
+    image: "images/doc_harbor.webp"
+  },
+  {
+    id: "lilla-stugan",
+    title: "Boka Lilla Stugan",
+    category: "Bokning & Telegram",
+    desc: "Bokningsportal för stuguthyrning med realtidsnotifiering i Telegram (port 8091).",
+    host: "fwserver",
+    port: "8091 / 443",
+    url: "https://bokalillastugan.novabase.se",
+    container: "telegram-booking-lilla-stugan",
+    status: "active",
+    image: "images/lilla_stugan.webp"
+  },
+  {
+    id: "novabase-web",
+    title: "Novabase Huvudportal",
+    category: "Företagswebbplats",
+    desc: "Officiell webbplats för Novabase med teknikkonsultation och systemlösningar.",
+    host: "fwserver",
+    port: "443",
+    url: "https://novabase.se",
+    container: "Apache / novabase.se",
+    status: "active",
+    image: "images/novabase.webp"
+  },
+  {
+    id: "geo-harbor",
+    title: "Geo-Harbor Backend",
+    category: "Geotrack & IoT Telemetri",
+    desc: "Realtidspositionering, kartanalys och beacon-telemetri på port 4001.",
+    host: "fwserver",
+    port: "4001 / 443",
+    url: "https://geo-harbor.se",
+    container: "geo-harbor.service",
+    status: "active",
+    image: "images/geo_harbor.webp"
+  },
+  {
+    id: "firstwarning-web",
+    title: "FirstWarning Säkerhet",
+    category: "Säkerhet & Tidiga Larm",
+    desc: "Säkerhetsövervakning, tidiga incidentvarningar och skyddslösningar.",
+    host: "fwserver",
+    port: "443",
+    url: "https://firstwarning.novabase.se",
+    container: "Apache / firstwarning",
+    status: "active",
+    image: "images/firstwarning.webp"
+  },
+  {
+    id: "security-harbor-web",
+    title: "Security Harbor",
+    category: "Säkerhetsplattform",
+    desc: "Plattformspresentation och resurser för Security Harbor cybersäkerhet.",
+    host: "fwserver",
+    port: "443",
+    url: "https://security.novabase.se",
+    container: "Apache / security-harbor",
+    status: "active",
+    image: "images/security_harbor.webp"
+  },
+  {
+    id: "promille-web",
+    title: "Promillekalkylatorn",
+    category: "Beräkningsverktyg",
+    desc: "Interaktiv promillekalkylator och förbränningsberäkning online.",
+    host: "fwserver",
+    port: "443",
+    url: "https://promille.novabase.se",
+    container: "Apache / promille",
+    status: "active",
+    image: "images/promille.webp"
+  },
+  {
+    id: "westvolt-web",
+    title: "Westvolt Webbplats",
+    category: "Energi & Teknik",
+    desc: "Webbportal för modern energiteknik och tekniska anläggningar.",
+    host: "fwserver",
+    port: "443",
+    url: "https://westvolt.novabase.se",
+    container: "Apache / westvolt",
+    status: "active",
+    image: "images/westvolt.webp"
+  },
+  {
+    id: "gps-web",
+    title: "GPS Tracking Portal",
+    category: "Flottstyrning & GPS",
+    desc: "Kartvy och spårningsgränssnitt för anslutna GPS-enheter och fordon.",
+    host: "fwserver",
+    port: "443",
+    url: "https://gps.novabase.se",
+    container: "Apache / gps",
+    status: "active",
+    image: "images/gps_portal.webp"
+  },
+  {
+    id: "games-web",
+    title: "Novabase Games",
+    category: "Spel & Underhållning",
+    desc: "Webbaserade spel, nöjen och interaktiva mini-applikationer.",
+    host: "fwserver",
+    port: "443",
+    url: "https://games.novabase.se",
+    container: "Apache / games",
+    status: "active",
+    image: "images/games.webp"
+  },
+  {
+    id: "finntorp-web",
+    title: "Finntorp Portal",
+    category: "Fastighet & Område",
+    desc: "Informationsportal och boenderesurser för Finntorpsområdet.",
+    host: "fwserver",
+    port: "443",
+    url: "https://finntorp.novabase.se",
+    container: "Apache / finntorp",
+    status: "active",
+    image: "images/finntorp.webp"
+  },
+  {
+    id: "vonbachen-web",
+    title: "Von Bachen Profil",
+    category: "Varumärke & Profil",
+    desc: "Officiell webbplats och profilering för varumärket Von Bachen.",
+    host: "fwserver",
+    port: "443",
+    url: "https://vonbachen.se",
+    container: "Apache / vonbachen",
+    status: "active",
+    image: "images/vonbachen.webp"
   }
 ];
 
@@ -223,6 +375,7 @@ function renderCards() {
     // Filter matching
     if (currentFilter === "host-45" && item.host !== "10.0.0.45") return false;
     if (currentFilter === "host-139" && item.host !== "10.0.0.139") return false;
+    if (currentFilter === "host-fwserver" && item.host !== "fwserver") return false;
     if (currentFilter === "status-active" && item.status !== "active") return false;
     if (currentFilter === "status-inactive" && item.status !== "inactive") return false;
 
@@ -249,11 +402,11 @@ function renderCards() {
 
   emptyState.style.display = "none";
   grid.innerHTML = filtered.map(item => `
-    <a href="${item.url}" target="_blank" rel="noopener noreferrer" class="service-card" aria-label="Öppna ${item.title} på ${item.host}:${item.port}">
+    <a href="${item.url}" target="_blank" rel="noopener noreferrer" class="service-card" aria-label="Öppna ${item.title} (${item.host})">
       <div class="card-image-wrap">
         <img src="${item.image}" alt="${item.title}" class="card-image" loading="lazy" width="600" height="375">
         <div class="card-top-badges">
-          <span class="badge-host">${item.host}</span>
+          <span class="badge-host ${item.host === 'fwserver' ? 'badge-cloud' : ''}">${item.host}</span>
           <span class="badge-status ${item.status}">
             <span class="${item.status === 'active' ? 'pulse-dot' : 'inactive-dot'}"></span>
             ${item.status === 'active' ? 'Aktiv' : 'Inaktiv'}
@@ -272,7 +425,7 @@ function renderCards() {
         <div class="card-category">${item.category}</div>
         <p class="card-desc">${item.desc}</p>
         <div class="card-footer">
-          <span class="card-container-name">${item.container}</span>
+          <span class="card-container-name" title="${item.container}">${item.container}</span>
           <span class="card-port-pill">Port ${item.port}</span>
         </div>
       </div>
@@ -285,7 +438,9 @@ function updateBadgeCounts() {
   const inactiveCount = SERVICES.filter(s => s.status === "inactive").length;
   const host45Count = SERVICES.filter(s => s.host === "10.0.0.45").length;
   const host139Count = SERVICES.filter(s => s.host === "10.0.0.139").length;
+  const hostFwCount = SERVICES.filter(s => s.host === "fwserver").length;
 
+  document.getElementById("count-total").textContent = SERVICES.length;
   document.getElementById("count-active").textContent = activeCount;
   document.getElementById("count-inactive").textContent = inactiveCount;
 
@@ -298,6 +453,7 @@ function updateBadgeCounts() {
     if (f === "all") badge.textContent = SERVICES.length;
     if (f === "host-45") badge.textContent = host45Count;
     if (f === "host-139") badge.textContent = host139Count;
+    if (f === "host-fwserver") badge.textContent = hostFwCount;
     if (f === "status-active") badge.textContent = activeCount;
     if (f === "status-inactive") badge.textContent = inactiveCount;
   });

@@ -325,6 +325,12 @@ body {
   box-shadow: 0 1px 4px rgba(0,0,0,0.04);
 }
 
+.badge-host.badge-cloud {
+  background: rgba(240, 249, 255, 0.92);
+  color: #0369a1;
+  border-color: rgba(3, 105, 161, 0.2);
+}
+
 .badge-status {
   display: inline-flex;
   align-items: center;

@@ -160,6 +160,67 @@ SERVICES = [
         "prompt": "minimalist 3D isometric icon of an elegant megaphone broadcasting soft glowing social engagement waves, social media marketing automation, smooth materials, soft clean studio lighting, pristine bright off-white background, subtle soft shadows",
         "seed": 648291,
     },
+    # fwserver (107.152.37.150)
+    {
+        "id": "doc_harbor",
+        "prompt": "minimalist 3D isometric icon of an illuminated digital document archive binder with glowing knowledge tags, document management, smooth porcelain materials, soft clean studio lighting, pristine bright off-white background, subtle soft shadows",
+        "seed": 182930,
+    },
+    {
+        "id": "lilla_stugan",
+        "prompt": "minimalist 3D isometric icon of a cozy wooden swedish cottage cabin with a small calendar booking icon and a key, vacation rental, smooth porcelain materials, soft clean studio lighting, pristine bright off-white background, subtle soft shadows",
+        "seed": 293847,
+    },
+    {
+        "id": "novabase",
+        "prompt": "minimalist 3D isometric icon of an elegant geometric corporate logo symbol with glowing blue core and sleek architectural curves, tech company portal, smooth porcelain materials, soft clean studio lighting, pristine bright off-white background, subtle soft shadows",
+        "seed": 384729,
+    },
+    {
+        "id": "geo_harbor",
+        "prompt": "minimalist 3D isometric icon of a 3D topographic globe terrain with GPS pin marker and beaming satellite waves, geolocation telemetry, smooth porcelain materials, soft clean studio lighting, pristine bright off-white background, subtle soft shadows",
+        "seed": 473829,
+    },
+    {
+        "id": "firstwarning",
+        "prompt": "minimalist 3D isometric icon of an elegant sleek warning beacon lighthouse emitting soft protective glowing shield waves, security alert portal, smooth porcelain materials, soft clean studio lighting, pristine bright off-white background, subtle soft shadows",
+        "seed": 583920,
+    },
+    {
+        "id": "security_harbor",
+        "prompt": "minimalist 3D isometric icon of a gleaming security padlock vault door with a clean shield crest, cybersecurity protection, smooth porcelain materials, soft clean studio lighting, pristine bright off-white background, subtle soft shadows",
+        "seed": 692831,
+    },
+    {
+        "id": "promille",
+        "prompt": "minimalist 3D isometric icon of a sleek glass graduated laboratory cylinder beaker with a digital balance scale, analytical calculator, smooth porcelain materials, soft clean studio lighting, pristine bright off-white background, subtle soft shadows",
+        "seed": 719283,
+    },
+    {
+        "id": "westvolt",
+        "prompt": "minimalist 3D isometric icon of a stylized glowing clean energy lightning bolt and electric power cell battery, renewable technology, smooth porcelain materials, soft clean studio lighting, pristine bright off-white background, subtle soft shadows",
+        "seed": 829103,
+    },
+    {
+        "id": "gps_portal",
+        "prompt": "minimalist 3D isometric icon of a modern sleek navigation compass with a pulsing GPS route map trajectory, vehicle tracking, smooth porcelain materials, soft clean studio lighting, pristine bright off-white background, subtle soft shadows",
+        "seed": 938201,
+    },
+    {
+        "id": "games",
+        "prompt": "minimalist 3D isometric icon of a sleek modern gaming controller gamepad with subtle colorful action buttons, web games, smooth porcelain materials, soft clean studio lighting, pristine bright off-white background, subtle soft shadows",
+        "seed": 103948,
+    },
+    {
+        "id": "finntorp",
+        "prompt": "minimalist 3D isometric icon of a modern minimalist architectural house with a gentle green tree, residential property, smooth porcelain materials, soft clean studio lighting, pristine bright off-white background, subtle soft shadows",
+        "seed": 214829,
+    },
+    {
+        "id": "vonbachen",
+        "prompt": "minimalist 3D isometric icon of a luxury monogram emblem with a sleek crown and gold accent ribbon, premium brand portal, smooth porcelain materials, soft clean studio lighting, pristine bright off-white background, subtle soft shadows",
+        "seed": 325910,
+    },
 ]
 
 
