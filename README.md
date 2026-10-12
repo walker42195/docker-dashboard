@@ -31,4 +31,4 @@ Panelen omfattar 17 tjänster, både aktiva och vilande:
 Alla ikoner och kortbilder har genererats via ComfyUI med Flux 1 dev (`flux1-dev.safetensors`, 25 steps, euler) på `10.0.0.139:8188` med konsekvent minimalistisk 3D-stil och ljus bakgrund.
 
 ## Drift
-Körs som en lättviktig Nginx-container på `http://10.0.0.45:8080`.
+Körs som en lättviktig Nginx-container på `http://10.0.0.45` (standardport 80).
