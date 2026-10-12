@@ -255,18 +255,6 @@ const SERVICES = [
     image: "images/novabase.webp"
   },
   {
-    id: "geo-harbor",
-    title: "Geo-Harbor Backend",
-    category: "Geotrack & IoT Telemetri",
-    desc: "Realtidspositionering, kartanalys och beacon-telemetri på port 4001.",
-    host: "fwserver",
-    port: "4001 / 443",
-    url: "https://geo-harbor.se",
-    container: "geo-harbor.service",
-    status: "active",
-    image: "images/geo_harbor.webp"
-  },
-  {
     id: "firstwarning-web",
     title: "FirstWarning Säkerhet",
     category: "Säkerhet & Tidiga Larm",
